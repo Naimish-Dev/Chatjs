@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.btn{
+cursor: pointer;
+}
+  .dilogtarget{
+  display: none;
+}
+ .dilogtrigger:hover .dilogtarget{
+  display:flex;
+}
+.chat-area-height{
+  height: calc(100vh - 90px);
+}
+.massage-box-height{
+    height: calc(100vh - 190px);
+    
+  }
+  .messageboxwidth{
+  max-width: 300px;
+
+}
+
+
+
